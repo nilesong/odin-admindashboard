@@ -1,0 +1,67 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+
+.userProfile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.userGreeting {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.socialButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.bottomContent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.leftBottom {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leftBottom>h1 {
+    grid-column: 1/3;
+}
+
+.rightBottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announce {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+
+div {
+    border: 1px solid black;
+}
